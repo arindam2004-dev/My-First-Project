@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Smart Blog Platform</title>
+    <!-- Yahan humne CSS file ko link kiya hai -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My AI Blog Platform</h1>
+    </header>
+
+    <div class="container">
+        <h2>Create a New Blog Post</h2>
+        
+        <form id="blogForm">
+            <label for="title">Blog Title:</label>
+            <input type="text" id="title" placeholder="Enter blog title..." required>
+
+            <label for="content">Blog Content:</label>
+            <textarea id="content" rows="4" placeholder="Write your blog content here..." required></textarea>
+
+            <button type="submit">Publish Blog</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Published Blogs</h2>
+        <div id="blogList">
+            <p id="noBlogText">No blogs published yet. Add your first blog above!</p>
+        </div>
+    </div>
+
+    <!-- Yahan humne JavaScript file ko link kiya hai (body ke end mein) -->
+    <script src="script.js"></script>
+</body>
+</html>
